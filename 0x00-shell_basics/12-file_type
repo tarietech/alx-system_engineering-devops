@@ -1,14 +1,2 @@
 #!/bin/bash
-
-file_path="/tmp/iamafile"
-
-# Check if the file exists
-if [ -f "$file_path" ]; then
-    # Use the file command to determine the file type
-    file_type=$(file -b "$file_path")
-    
-    # Print the file type
-    echo "File type of 'iamafile': $file_type"
-else
-    echo "File 'iamafile' does not exist in the /tmp directory."
-fi
+type /tmp/iamafile
