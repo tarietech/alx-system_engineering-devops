@@ -3,3 +3,4 @@
 2-groups prints all the groups the current use is in 
 3-new_owner changes the hello owner to betty
 4-empty create an empty file hello
+5-execute adds exacute permission to the file hello
